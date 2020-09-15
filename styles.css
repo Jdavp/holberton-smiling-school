@@ -208,8 +208,8 @@ main {
     display: block;
 }
 
-/**---- Hero_piece ----**/
-.hero_piece {
+/**---- main Section 1 ----**/
+.main-section {
     background-image: url('assets/images/pic_1.jpg');
     background-repeat: no-repeat;
     background-position: center;
@@ -219,19 +219,19 @@ main {
     align-items: center;
     text-align: center;
 }
-.hero_piece h1 {
+.main-section h1 {
     color: var(--color-white);
     font-size: 6rem;
     text-align: center;
     margin-top: 27rem;}
 
-.hero_piece h2{
+.main-section h2{
         color: var(--color-white);
         font-size: 6rem;
         text-align: center;
         margin-top: 10rem;
 }
-.hero_piece li {
+.main-section li {
     color: var(--color-white);
     text-align: center;
     display: inline-block;
@@ -240,7 +240,7 @@ main {
     margin:1em;
 }
 
-.hero_piece li {
+.main-section li {
     color: var(--color-white);
     text-align: center;
     display: inline-block;
@@ -248,7 +248,7 @@ main {
     text-decoration: none;
     margin:1em;
 }
-.hero_piece a {
+.main-section a {
     display: flex;
     cursor: pointer;
     align-items: center;
@@ -263,10 +263,10 @@ main {
     font-weight:500;
     text-align: center;
 }
-.hero_piece a:hover, .hero_piece a:active {
+.main-section a:hover, .main-section a:active {
     opacity: var(--button-hover-active-opacity);
 }
-.hero_piece p {
+.main-section p {
     color: var(--color-white);
     max-width: 800px;
     text-align: center;
@@ -310,8 +310,39 @@ main {
         justify-content: center;
         align-items: center;
     }
-    .hero_piece{
+    .main-section{
       background-position: center top;
       background-size: cover;
     }
 }
+
+/* Carousel  */
+
+
+
+.carousel {
+    padding: 1rem 1rem 1rem 10rem;    
+  }
+  
+  .carousel-control-prev {
+    background-image: url("./assets/images/arrow_white_left.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 2rem;
+
+  }
+  
+  .carousel-control-next {
+    background-image: url("./assets/images/arrow_white_right.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 2rem;
+    margin: 2rem 1rem;
+  }
+  
+  img.thumbnail-1 {
+    width: 10rem;
+  }
+  .circle-img2 {
+    width: 9rem;   
+  }
