@@ -276,7 +276,6 @@ main {
     width: 12rem;   
   }
 
-
 /* Media query */
   @media only screen and (min-width: 768px) and (min-width: 576px){
     #menu-label {
@@ -431,3 +430,64 @@ footer .social span{
     margin: 3px;
 }
   
+
+/* Pricing Page*/
+.pricing-hero {
+    background-image: url("./assets/images/pic_2.jpg");
+  }
+
+/* Course Page*/
+.courses-hero {
+    background-image: url("./assets/images/pic_3.jpg");
+  }
+
+  .purple_theme {
+    color: var(--text-color-dark) !important;
+    background-color: var(--color-purple-smile);
+  }
+/* Filter Section*/
+
+.filter_section {
+    margin:-1rem;
+  }
+
+  .form-control {
+      color: #ffffff9a;
+      background-color: #ffffff54;
+      border: transparent;
+    border-radius: 5px 5px 0 0;
+    border-bottom: 2px solid white;
+    height: 50px;
+    position: relative;
+  }
+  .form-control::placeholder {
+      color: #ffffff9a;
+      opacity: 1;
+  }
+  .filter_section label {
+      margin:2rem;
+  }
+  
+  select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;       /* Remove default arrow */
+    /*background-image: url(./images/star_off.png);  */ /* Add custom arrow */
+  }
+  
+  .icon_select {
+      position: absolute;
+      right: 30px;
+      z-index: 10;
+      bottom: 17px;
+  }
+  
+  .icon_search {
+    position: absolute;
+      left: 30px;
+      z-index: 10;
+      bottom: 17px;
+  }
+  .hero{
+      padding-top: 0 !important;
+  }
