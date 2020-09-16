@@ -374,19 +374,41 @@ main {
     right: 0;
   }
   
-  
-  img.small-img {
+.star{
+    margin-top: 1.5rem;
+}  
+
+.time{
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+}
+.small-img {
     width: 3.5rem;
     height: 3.5rem;
   }
   
-  img.play-btn {
+.play-btn {
     height: 3.5rem;
     margin: 2.4rem 4.5rem;
   }
   
-  img.smile-logo {
+.smile-logo-2{
     width: 3.5rem;
   }
-  
+
+  .btn-smile{ 
+    display: inline-flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-white);
+    background-color: var(--color-link-hover-active);
+    height: 2.5rem;
+    width: 11rem;
+    border-radius: 50px;
+    opacity: 0.9;
+    filter: drop-shadow(2px 2px 20px rgba(0, 0, 0, 0.5));
+    font-weight:500;
+    text-align: center;
+  }
   
